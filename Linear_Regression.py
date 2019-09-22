@@ -9,7 +9,7 @@
 # and much statistical analysis, as well as a simple machine learning model.
 #
 # Acknowledgement: Different articles were read for this. Thanks to Giorgi Lomia for checking
-# the assignment and helping out.
+# the assignment and helping out.The data set was gotten from Lalith Bharadwaj.
 #
 ######################################################################
 import numpy   # library supporting large, multi-dimensional arrays and matrices.
