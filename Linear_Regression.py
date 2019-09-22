@@ -8,8 +8,8 @@
 # regression model.  Regression is one of the most ubiquitous tools in economic
 # and much statistical analysis, as well as a simple machine learning model.
 #
-# Acknowledgement: Lalith Bharadwaj and Emely Alfaro Zavala for helping me to complete
-# this assignment.
+# Acknowledgement: Emely Alfaro Zavala for helping me to complete
+# this assignment. Different articles were read for this.
 #
 ######################################################################
 import numpy   # library supporting large, multi-dimensional arrays and matrices.
