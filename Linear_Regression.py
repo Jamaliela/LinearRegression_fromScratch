@@ -47,8 +47,8 @@ print("This is B1:", b1, "and this is B0:", b0)
 
 # Plotting Values and Regression Line
 
-max_x = numpy.max(X) + 100
-min_x = numpy.min(X) - 100
+max_x = numpy.max(X) + 5
+min_x = numpy.min(X) - 5
 
 # Calculating line values x and y
 x = numpy.linspace(min_x, max_x, 1000)
