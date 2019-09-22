@@ -18,13 +18,13 @@ import pandas as pd  # library to take data and creates a Python object with row
 
 
 # Reading Data
-data = pd.read_csv('Agg_data.csv')
+data = pd.read_csv('Salary.csv')
 print(data.shape)
 print(data.head())
 
 # Collecting X and Y
-X = data['Bid'].values
-Y = data['Market Price'].values
+X = data['YearsExperience'].values
+Y = data['Salary'].values
 
 # Mean X and Y to find B0 and B1
 mean_x = numpy.mean(X)
@@ -59,8 +59,8 @@ plot.plot(x, y, color='#58b970', label='Regression Line')
 # Plotting Scatter Points
 plot.scatter(X, Y, c='#ef5423', label='Scatter Plot')
 
-plot.xlabel('Bid')
-plot.ylabel('Market Price')
+plot.xlabel('YearsExperience')
+plot.ylabel('Salary')
 plot.legend()
 plot.show()
 
